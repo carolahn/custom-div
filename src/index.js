@@ -1,6 +1,11 @@
-import React from 'react'
-import styles from './styles.module.css'
+import CustomDiv from './components/CustomDiv';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'))
+
+
+export default CustomDiv;
