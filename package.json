@@ -1,10 +1,10 @@
 {
-  "name": "@test-lib/custom-div",
-  "version": "1.0.0",
+  "name": "@carolahn/test-lib",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "carolahn",
   "license": "MIT",
-  "repository": "carolahn/test-lib",
+  "repository": "carolahn/custom-div",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

@@ -2,7 +2,10 @@ import React from 'react';
 
 function CustomDiv() {
   return (
-    <div>Custom DIV. Yey!</div>
+    <div>
+      <p>Custom DIV. Yey!</p>
+      <button type="button">Click me</button>
+    </div>
   );
 }
 

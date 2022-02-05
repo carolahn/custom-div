@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'test-lib'
-import 'test-lib/dist/index.css'
+import CustomDiv from 'test-lib'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CustomDiv />
 }
 
 export default App
